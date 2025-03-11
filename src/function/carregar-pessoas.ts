@@ -1,5 +1,5 @@
 import fs from 'fs';
-import Pessoa from '../model/Pessoa';
+import Pessoa from '../model/pessoa';
 
 export default function carregarPessoas(arquivo: string): Pessoa[] {
   const conteudo = fs.readFileSync(arquivo, 'utf-8');
